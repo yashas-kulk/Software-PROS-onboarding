@@ -22,7 +22,7 @@ pros::MotorGroup left_mtr({});
 pros::MotorGroup right_mtr({});
 
 void display_task() {
-    pros::Task task([]{
+    pros::Task task([]{ // this is a lambda -> https://en.cppreference.com/w/cpp/language/lambda
         while(true) {
             // display motor position
 
