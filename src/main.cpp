@@ -41,7 +41,8 @@ void opcontrol() {
         // motor control code
             left_mtr.move(-controller.get_analog(ANALOG_LEFT_Y));
             right_mtr.move(controller.get_analog(ANALOG_RIGHT_Y));
-
+        //tryna get the motors to move in opposite directions
+    
         pros::delay(10);// delay for context switching
     }
 }
