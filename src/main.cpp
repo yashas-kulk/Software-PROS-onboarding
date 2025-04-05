@@ -53,7 +53,7 @@ void opcontrol() {
                 right_mtr.move_velocity(200); // move right motor at 200 velocity
             } else {
                 left_mtr.move_velocity(0); // stop left motor
-                right_mtr.move_velocity(0); // stop right motor
+                right_mtr.move_velocity(0); // stop right motor HELLLLLLLP
             }
         //tryna get the motors to move in opposite directions
     
