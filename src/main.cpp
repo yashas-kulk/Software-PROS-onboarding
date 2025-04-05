@@ -29,6 +29,9 @@ void display_task() {
             pros::lcd::print(5, "Left Motor Velo: %lf", left_mtr.get_actual_velocity(), 7);
             pros::lcd::print(7, "Right Motor Velo: %lf", right_mtr.get_actual_velocity(), 9);
             pros::delay(100); // delay for context switching
+
+            //hello?? im so confused
+            
         }
     });
 }
