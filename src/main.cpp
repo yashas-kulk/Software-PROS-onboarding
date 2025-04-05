@@ -30,8 +30,8 @@ void display_task() {
             pros::lcd::print(7, "Right Motor Velo: %lf", right_mtr.get_actual_velocity(), 9);
             pros::delay(100); // delay for context switching
 
-            //hello?? im so confused
-            
+            //hello?? im so confusedefwf2w
+
         }
     });
 }
